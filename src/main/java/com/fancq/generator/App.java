@@ -42,10 +42,10 @@ public class App {
 
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://221.221.221.8:3306/dataman_sec_db?useUnicode=true&characterEncoding=utf-8&useSSL=false");
+        dsc.setUrl("jdbc:mysql://ip:port/dataman_sec_db?useUnicode=true&characterEncoding=utf-8&useSSL=false");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
-        dsc.setUsername("dataman_sec");
-        dsc.setPassword("Copote&20211110");
+        dsc.setUsername("xxx");
+        dsc.setPassword("xxx");
         dsc.setDbType(DbType.MYSQL);
         mpg.setDataSource(dsc);
 
